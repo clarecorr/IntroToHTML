@@ -1,11 +1,42 @@
 ﻿#firstHeading {
-    color:blue;
-    font-family:Calibri, 'Gill Sans', 'Trebuchet MS', 'Gill Sans MT', 'Gill Sans', sans-serif;
-} 
-body {
+    text-align: center;
+    /*color:blue;
+    font-family:Calibri, 'Gill Sans', 'Trebuchet MS', 'Gill Sans MT', 'Gill Sans', sans-serif;*/
+}
+
+.threeCols {
+    column-count: 3;
+    column-gap: 15px;
+}
+
+#fullWidthP {
+    column-span: all;
+}
+
+.stubbornP {
+    margin-top: 0px;
+}
+
+div p {
+    column-span: none;
+}
+.twoCols {
+    column-count: 2;
+    column-gap: 15px;
+}
+
+p {
+    text-align: justify;
+}
+
+
+
+
+
+/*body {
     background-color:#B8BEFF;
 }
 .introText {
     color:white;
     font-family: 'Raleway', sans-serif;
-}
+}*/
